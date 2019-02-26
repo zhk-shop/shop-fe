@@ -1,6 +1,8 @@
+/*通用配置*/
 *{
 	margin: 0;
 	padding: 0;
+	outline: none;
 }
 body{
 	background: #f6f6f6;
@@ -20,6 +22,7 @@ label{
 input[type='checkbox']{
 	cursor: pointer;
 }
+/*定宽布局*/
 .w{
 	width: 1080px;
 	margin: 0 auto;
@@ -76,9 +79,27 @@ input[type='checkbox']{
 	opacity: 0.6;
 	display: block;
 	width: 65px;
-	padding: 65px;
+	height: 65px;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	background: url(../../image/loading.gif) no-repeat;
 }
-
+/*容器*/
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+}
+.panel .panel-title{
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 2px solid #eee;
+	
+}
+.panel .panel-body{
+	padding: 10px;
+	overflow: hidden;
+	
+}

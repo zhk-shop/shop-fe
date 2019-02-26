@@ -6,10 +6,10 @@ var navSide = {
 	option : {
 		name : '',
 		navList:[
-		{name:'user-center',desc:'个人中心',href:'./user-center'},
-		{name:'order-list',desc:'我的订单',href:'./order-list'},
-		{name:'pass-update',desc:'修改密码',href:'./pass-update'},
-		{name:'about',desc:'关于shop',href:'./about'}
+		{name:'user-center',desc:'个人中心',href:'./user-center.html'},
+		{name:'order-list',desc:'我的订单',href:'./order-list.html'},
+		{name:'user-pass-update',desc:'修改密码',href:'./user-pass-update.html'},
+		{name:'about',desc:'关于shop',href:'./about.html'}
 		]
 	},
 	init: function(option) {
