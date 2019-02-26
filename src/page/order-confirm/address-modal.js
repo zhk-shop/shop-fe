@@ -7,7 +7,7 @@ var addressModal = {
 	show: function(option) {
 		// option的绑定
 		this.option = option;
-		this.option.data = option.data || {};
+		this.option.data = option.data;
 		this.$modalWrap = $('.modal-wrap');
 		// 渲染页面
 		this.loadModal();
