@@ -1,0 +1,12 @@
+.about-text{
+	display: block;
+	font-size: 20px;
+	
+}
+.w img{
+	width: 100%;
+}
+.w strong{
+	color: #C60023;
+	font-size:25px;
+}

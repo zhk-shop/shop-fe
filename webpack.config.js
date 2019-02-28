@@ -33,11 +33,12 @@ var config = {
 		'user-pass-update': ['./src/page/user-pass-update/index.js'],
 		'user-center': ['./src/page/user-center/index.js'],
 		'user-center-update': ['./src/page/user-center-update/index.js'],
+		'about': ['./src/page/about/index.js'],
 		'result': ['./src/page/result/index.js']
 	},
 	output: {
 		path: './dist',
-		publicPath: '/dist',
+		publicPath: 'http://s.zhanghengkai.com/mmall_fe/dist/',
 		filename: 'js/[name].js'
 	},
 	externals: {
@@ -92,7 +93,8 @@ var config = {
 		new HtmlWebpackPlugin(getHtmlConfig('user-center', '个人中心')),
 		new HtmlWebpackPlugin(getHtmlConfig('user-center-update', '修改个人信息')),
 		new HtmlWebpackPlugin(getHtmlConfig('user-pass-update', '修改密码')),
-		new HtmlWebpackPlugin(getHtmlConfig('result', '提示'))
+		new HtmlWebpackPlugin(getHtmlConfig('result', '提示')),
+		new HtmlWebpackPlugin(getHtmlConfig('about', '关于e-shop'))
 	]
 };
 //

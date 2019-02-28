@@ -5,11 +5,14 @@
 	<title> <%= htmlWebpackPlugin.options.title%></title>
 	</head>
 	<body>
-		<%= require('html-loader!./layout/nav.html') %>
-		<%= require('html-loader!./layout/header.html') %>
+		<%= require('html-loader!./layout/nav-simple.html') %>
 		<div class="w">
-			
-			
+			<span class="about-text">本站（shop.zhanghengkai.com）只本人求职所用，<strong>并无真实商品出售</strong>。</span>
+			<span class="about-text">个人联系方式：</span>
+			<span class="about-text">手机：18810362011</span>
+			<span class="about-text">邮箱：974001169@qq.com</span>
+			<span class="about-text">本人简历：</span>
+			<img src="<%= require('../image/floor/1.png') %>" />
 		</div>
 		<%= require('html-loader!./layout/footer.html') %>
 	</body>
