@@ -2,6 +2,7 @@
 	background: #eee;
 	height: 30px;
 	line-height: 30px;
+	
 }
 .nav .user{
 	float: left;
@@ -18,4 +19,37 @@
 .nav .nav-list .nav-item{
 	display: inline-block;
 	margin-left:5px;
+}
+@media screen and (max-width: 600px) {
+	.nav{
+		height: 50px;
+		line-height: 50px;
+		font-size: .9em;
+		color: #c60023;
+		width: 100%;
+		background-color: #f6f6f6;
+	}
+	.nav .js-logout,.js-login,.js-register{
+		background: #c60023;
+		color: #fff;
+		padding:0.5rem;
+		border-radius: 5px;
+
+	}
+	.nav ul li{
+		background: #c60023;
+		color: #fff;
+		padding: 0.5rem;
+		display: inline!important;
+		border-radius: 5px;
+
+	}
+	.nav ul li a{
+		color: #fff	
+	}
+	.nav ul li:last-child{
+		display: none!important;
+		
+	}
+
 }

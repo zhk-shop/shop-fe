@@ -103,3 +103,8 @@ input[type='checkbox']{
 	overflow: hidden;
 	
 }
+@media screen and (max-width: 600px) {
+ 	.w{
+ 		width: 100%;
+ 	}
+}

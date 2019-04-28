@@ -143,3 +143,29 @@
     text-align: center;
     background: #eee;
 }
+@media screen and (max-width: 600px) {
+	.intro-wrap{
+	width: 100%;
+
+	}
+	.intro-wrap .p-img-con{
+	float: left;
+	width: 100%;
+	}
+	.intro-wrap .p-info-con{
+	float: left;
+	width:90%;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	}
+	.intro-wrap .p-info-con .p-info-item .cart-add{
+		margin: 0 auto;
+	}
+	.detail-wrap .detail-con img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+}

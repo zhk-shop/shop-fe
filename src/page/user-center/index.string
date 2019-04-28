@@ -20,4 +20,5 @@
 		<span class="text">{{answer}}</span>
 	</div>
 		<a class="btn btn-submit" href="./user-center-update.html">编辑</a>
+		<a class="btn btn-submit" href="./user-pass-reset.html">修改密码</a>
 </div>

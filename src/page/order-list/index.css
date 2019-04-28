@@ -58,3 +58,19 @@
     width: 15%;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .nav-side{
+        display: none;
+    }
+    .content{
+        width: 100% !important;
+    }
+    .order-list-table .order-info .order-text{
+    margin-right: 25px;
+    display: block;
+    background-color: #f6f6f6;
+}
+.order-list-table .order-info{
+    background-color: #f6f6f6;
+}
+}

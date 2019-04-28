@@ -1,6 +1,5 @@
 var conf = {
 	serverHost: ''
-
 };
 var Hogan = require('hogan.js');
 var _shop = {
@@ -43,7 +42,8 @@ var _shop = {
 	},
 	//服务器地址
 	getServerUrl: function(path) {
-		return conf.serverHost + path;
+		console.log(conf.serverHost + path)
+				return conf.serverHost + path;
 	},
 	//成功提示
 	successTips: function(msg) {

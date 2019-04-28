@@ -69,3 +69,11 @@
     font-weight: bold;
     color: #c60023;
 }
+@media screen and (max-width: 600px) {
+    .nav-side{
+        display: none;
+    }
+    .content{
+        width: 100% !important;
+    }
+}

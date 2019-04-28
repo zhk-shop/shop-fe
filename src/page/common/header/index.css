@@ -36,3 +36,23 @@
 	border-top: 2px solid #C60023;
 	
 }
+@media screen and (max-width: 600px) {
+ 	.header .logo{
+ 		margin-left: -65px;
+ 		position: absolute;
+    	display: block;
+    	font-size: 36px;
+   		 color: #C60023;
+  	 	 font-weight: bolder;
+   		left: 50%;
+
+   		 text-decoration: none;
+ 	}
+ 	.header .search-con{
+ 		padding:100px 0 20px 0;
+ 		width: 100%;
+ 	}
+ 	.header .search-input{
+ 		width: 74%;
+ 	}
+}

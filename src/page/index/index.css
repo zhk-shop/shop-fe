@@ -103,3 +103,24 @@
 	height: 75%;
 	border: none;
 }
+@media screen and (max-width: 600px) {
+   .keywords-list,.banner-con{
+   	display: none
+   }
+   .floor-wrap .floor-item{
+   	position: relative;
+	width:40%;
+	height: 170px;
+	margin: 15px 20px 15px 0;
+	float: left;
+	cursor: pointer;
+	background: #Fff;
+
+   }
+   .floor-wrap .floor-item .floor-text{
+   	font-size: .8rem;
+   	   }
+   	   .floor-wrap .floor-list{
+   	   	padding: 0 10px 0 10px;
+   	   }
+}

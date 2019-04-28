@@ -16,3 +16,11 @@
 	line-height: 30px;
 	font-size: 14px;
 }
+@media screen and (max-width: 600px) {
+    .nav-side{
+        display: none;
+    }
+    .content{
+        width: 100% !important;
+    }
+}

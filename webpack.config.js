@@ -38,7 +38,8 @@ var config = {
 	},
 	output: {
 		path: './dist',
-		publicPath: 'http://s.zhanghengkai.com/mmall_fe/dist/',
+		// publicPath: WEBPACK_ENV != "dev" ? 'http://s.zhanghengkai.com/mmall_fe/dist/' : '/dist/',
+		publicPath: '/dist/',
 		filename: 'js/[name].js'
 	},
 	externals: {
@@ -56,9 +57,9 @@ var config = {
 			{
 				test: /\.string$/,
 				loader: 'html-loader',
-				query:{
+				query: {
 					minimize: true,
-					removeArrtibuteQuotes:false
+					removeArrtibuteQuotes: false
 				}
 			}
 		]
